@@ -16,6 +16,32 @@ If you want to run the code in the Google Colab file, follow these additional st
 2. In the Colab interface, click on "Runtime" in the menu bar.
 3. Select "Run all" to run all the cells in the notebook or use the individual cell run buttons.
 
+## Additional Information about Data Cleaning
+
+During the data cleaning process, the following observations were made:
+
+- No inconsistent data formats were found in the dataset.
+
+Data columns (total 12 columns):
+
+| No  | Column                | Non-Null Count | Dtype    |
+| --- | -------------------- | -------------- | -------- |
+| 0   | fixed acidity         | 4898 non-null  | float64  |
+| 1   | volatile acidity      | 4898 non-null  | float64  |
+| 2   | citric acid           | 4898 non-null  | float64  |
+| 3   | residual sugar        | 4898 non-null  | float64  |
+| 4   | chlorides             | 4898 non-null  | float64  |
+| 5   | free sulfur dioxide   | 4898 non-null  | float64  |
+| 6   | total sulfur dioxide  | 4898 non-null  | float64  |
+| 7   | density               | 4898 non-null  | float64  |
+| 8   | pH                    | 4898 non-null  | float64  |
+| 9   | sulphates             | 4898 non-null  | float64  |
+| 10  | alcohol               | 4898 non-null  | float64  |
+| 11  | quality               | 4898 non-null  | int64    |
+
+All of the 11 input variables are in `float64` datatype, and the output variable "quality" is in `int` datatype. Therefore, no standardization or transformation techniques were applied to the data.
+
+
 
 
 
